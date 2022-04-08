@@ -34,6 +34,7 @@ ul {
     list-style: none;
 }
 a {
+    color: var(--preto_paim);
     text-decoration: none;
     transition: 0.4s;
 }
@@ -55,6 +56,7 @@ nav {
     width: 50%;
     padding: 0% 25% 0% 25%;
     z-index: 1;
+    height: 10vh;
 }
 .logo_imagem {
     max-width: 80%;
@@ -791,12 +793,16 @@ nav {
     width: 100%;
     padding: 0% 0% 0% 0%;
 }
+.nav-list {
+    padding: 1% 0% 0% 0%;
+}
 .logo_imagem {
     max-width: 100%;
 }
 .nav-list li a {
     padding-left: 2rem;
     padding-right: 2rem;
+    text-decoration: none;
 }
 .redes-sociais {
     font-size: 150%;
@@ -1038,6 +1044,9 @@ nav {
 }
 .logo_imagem {
     max-width: 100%;
+}
+.nav-list li {
+    text-decoration: none;
 }
 .nav-list li a {
     padding-left: 2rem;
@@ -1551,7 +1560,6 @@ nav {
     opacity: 0;
 }
 .nav-list li a {
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -1796,6 +1804,12 @@ nav {
 
 }
 
+/* 480px -- 480px */  /* 480px -- 480px */  /* 480px -- 480px */
+/* 480px -- 480px */  /* 480px -- 480px */  /* 480px -- 480px */
+/* 480px -- 480px */  /* 480px -- 480px */  /* 480px -- 480px */
+/* 480px -- 480px */  /* 480px -- 480px */  /* 480px -- 480px */
+/* 480px -- 480px */  /* 480px -- 480px */  /* 480px -- 480px */
+
 @media (max-width: 480px) {
 
 nav {
@@ -1806,7 +1820,7 @@ nav {
     align-items: center;
     font-family: var(--fonte_paim);
     background: var(--preto_paim);
-    width: 50%;
+    width: 100%;
     padding: 0% 25% 0% 25%;
     z-index: 1;
 }
