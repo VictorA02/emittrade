@@ -5,11 +5,10 @@
         <meta http-equiv="X-UA-Comptible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Emit Trade – Lucre milhões de coins e tenha o seu time dos sonhos!</title>
-        <link rel="shortcut icon" href="/images/icon_emittrade.jpg">
         <link rel="stylesheet" type="text/css" href="/css/style.css">
-        <script src="/js/script.js" defer></script>
-        <script src="https://kit.fontawesome.com/1fe66e7cc6.js" crossorigin="anonymous"></script>
-        <script>$('.nav-menu').on('click', 'a', function() { $('.nav-button').triggerHandler('tap'); });</script>
+        <link rel="shortcut icon" href="/images/icon_emittrade.jpg">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body>
         <header id="nav-menu">
@@ -27,8 +26,8 @@
                 </div>
                 <ul class="nav-list">
                     <li><a href="/pages/initial-page.html">Página Inicial</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#advantage">Vantagens</a></li>
+                    <li><a href="/pages/initial-page.html#about">Sobre</a></li>
+                    <li><a href="/pages/initial-page.html#advantage">Vantagens</a></li>
                     <li><a href="/pages/plans-page.html">Planos</a></li>
                     <li><a href="/pages/premium-page.html">Premium</a></li>
                     <li><a href="/pages/curse-page.html">Curso</a></li>
@@ -36,80 +35,117 @@
             </nav>
         </header>
         <main>
-            <div class="introduction">
+            <div class="introduction" data-aos="fade-in" data-aos-delay="100">
                 <p>Somos uma empresa especializada em fazer trade dentro do</p>
                 <p>FIFA: Ultimate Team</p>
             </div>
             <div id="about" class="sections-black">
-                <ul>
+                <ul data-aos="fade-in">
                     <p><a>O QUE FAZEMOS</a></p>
+                    <p><a>Ensinamos e ajudamos os fifeiros a montarem o seu time dos sonhos dentro do Ultimate team.</a></p>
                     <p><a>Através de listas de investimentos, vídeos e textos, nós fazemos você lucrar, além de explicarmos tudo sobre o mercado do fifa.</a></p>
                 </ul>
             </div>
             <div class="sections-white">
-                <ul>
+                <ul data-aos="fade-in">
                     <p><a>POR QUE FAZEMOS</a></p>
                     <p><a>Acreditamos que o fifa vai além de um jogo de futebol. Queremos que todos os players tenham coins para jogar com jogadores e times que eles sempre sonharam.</a></p>
                 </ul>
             </div>
             <div class="sections-black">
-                <ul>
+                <ul data-aos="fade-in">
                     <p><a>CONTA NOVA</a></p>
-                    <p><a>Decidi criar uma conta no inicio deste ano, durante o evento dos toty's. Mesmo sem tirar jogador bom nos packs consegui recomeçar com o trade e alcancei os 500k em menos de uma semana. No primeiro mês consegui fazer 3kk sem jogar praticamente alguma weekend league e division rivals, dependendo exclusivamente dos trades.</a></p>
+                    <p><a>Devido a alguns problemas que tive, decidi criar uma conta nova bem no inicio do ano. Na época estávamos no evento dos TOTY’s e mesmo assim não tive nenhuma chance nos packs, tirei ninguém. Mesmo assim consegui recomeçar com o trade e em menos de uma semana já havia conseguido 500k. Logo no primeiro mês consegui fazer 3kk sem jogar praticamente nenhuma Weekend league e Division rival, dependendo exclusivamente dos trades.</a></p>
                 </ul>
             </div>
-            <div id="advantage" class="sections-white">
-            <!--     <ul>
-                    <p><a>VANTAGENS</a></p>
-                    <div class="conteudo-categoria-sections-white">
-                        <div class="carousel">
-                            <div class="carousel_track-container">
-                                <ul class="carousel_track">
-                                    <li class="caixa-vantagens">
-                                        <img src="/images/vazamento.png" class="imagem_caixa-vantagens" alt="">
-                                        <p>VAZAMENTOS</p>
-                                        <p>Vazamentos em primeira mão para você ficar por dentro de tudo que está por vir!</p>    
-                                    </li>
-                                    <li class="caixa-vantagens">
-                                        <img src="/images/call.png" class="imagem_caixa-vantagens" alt="">
-                                        <p>CALLS</p>
-                                        <p>Listas de investimentos para você aproveitar o  melhor dos vazamentos!</p>    
-                                    </li>
-                                    <li class="caixa-vantagens">
-                                        <img src="/images/resenha.png" class="imagem_caixa-vantagens" alt="">
-                                        <p>RESENHA</p>
-                                        <p>Grupo aberto com outros traders para tirar dúvidas e trocar uma ideia.</p>    
-                                    </li>
-                                    <li class="caixa-vantagens">
-                                        <img src="/images/gameplay.png" class="imagem_caixa-vantagens" alt="">
-                                        <p>GAMEPLAY</p>
-                                        <p>Dicas de gameplay para você continuar sempre evoluindo dentro do jogo</p>    
-                                    </li>
-                                    <li class="caixa-vantagens">
-                                        <img src="/images/analise.png" class="imagem_caixa-vantagens" alt="">
-                                        <p>ANÁLISE</p>
-                                        <p>Análises de mercado feitas semanalmente para você saber o que esperar.</p>    
-                                    </li>
-                                    <li class="caixa-vantagens">
-                                        <img src="/images/suporte.png" class="imagem_caixa-vantagens" alt="">
-                                        <p>SUPORTE</p>
-                                        <p>Suporte exclusivo para você tirar suas dúvidas com um trader experiente.</p>    
-                                    </li>
-                                </ul>
-                            </div>                    
-                        </div>
-                    </div>
-                </ul> -->
-            </div>
-            <div class="sections-black">
-                <ul>
+            <div class="sections-white">
+                <ul data-aos="fade-in">
                     <p><a>POR QUE ASSINAR</a></p>
-                    <p><a>Nós ajudamos os membros a lucrar e também a fazerem trade. Além de uma comunidade que se ajuda, você terá um grupo onde poderá conversar e trocar uma ideia sobre o fifa ou os próprios investimentos. Você terá um suporte exclusivo com traders qualificados para tirar suas dúvidas de forma particular e claro, poderá testar jogadores que você sempre desejou dentro do FIFA: Ultimate Team.</a></p>
+                    <p><a>Nossos grupos de trade não só ajudam os participantes a lucrar como também ensinamos eles a fazerem trade. Além de uma comunidade que se ajuda, você terá um grupo onde poderá conversar e trocar uma ideia sobre o fifa ou os próprios investimentos. Você terá um suporte exclusivo com traders qualificados para tirar suas dúvidas de forma particular e claro, poderá testar jogadores que você sempre desejou dentro do FIFA: Ultimate Team.</a></p>
                 </ul>
+            </div>
+            <div id="advantage" class="section-carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="caixa-vantagem">
+                            <img src="/images/call.png" class="imagem_caixa-vantagem" alt="Imagem call vantagem">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="caixa-vantagem">
+                            <img src="/images/vazamento.png" class="imagem_caixa-vantagem" alt="Imagem vazamento vantagem">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="caixa-vantagem">
+                            <img src="/images/resenha.png" class="imagem_caixa-vantagem" alt="Imagem resenha vantagem">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="caixa-vantagem">
+                            <img src="/images/gameplay.png" class="imagem_caixa-vantagem" alt="Imagem gameplay vantagem">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="caixa-vantagem">
+                            <img src="/images/analise.png" class="imagem_caixa-vantagem" alt="Imagem análise vantagem">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="caixa-vantagem">
+                            <img src="/images/suporte.png" class="imagem_caixa-vantagem" alt="Imagem suporte vantagem">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </main>
     </body>
-    <footer class="copyright_preto">
+    <script>
+        
+        $(document).ready(function(){
+            $("#carouselExampleIndicators").carousel();
+        });
+        </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1fe66e7cc6.js" crossorigin="anonymous"></script>
+    <footer class="copyright-preto_initial">
         <p> © Emittrade | 2022 </p>
     </footer>
+</html>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  </body>
 </html>
