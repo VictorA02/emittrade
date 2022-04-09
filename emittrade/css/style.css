@@ -242,6 +242,9 @@ nav {
 .imagem_caixa-vantagem {
     width: 100%;
 }
+.carousel-control-prev, .carousel-control-next {
+    z-index: 0;
+}
 
 /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
@@ -279,13 +282,13 @@ nav {
 .sections-bronze-plans ul p {
     padding-bottom: 2%;
 }
-.plan-1_bronze p:nth-child(1) {
+.bronze-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--bronze_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_bronze p:nth-child(2) {
+.bronze-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -294,7 +297,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_bronze p:nth-child(3) {
+.bronze-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -303,7 +306,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(1) {
+.bronze-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -312,7 +315,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_bronze p:nth-child(3) {
+.bronze-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -321,7 +324,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(4) {
+.bronze-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -330,7 +333,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(5) {
+.bronze-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -339,7 +342,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(6) {
+.bronze-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -348,7 +351,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-3_bronze p:nth-child(1) {
+.bronze-plan-column-1 p:nth-child(8) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -356,6 +359,15 @@ nav {
     color: var(--branco_paim);
     line-height: 2rem;
     font-weight: 700;
+}
+.bronze-plan-column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bronze-plan-image {
+    height: 70%;
+    width: 70%;
 }
 .sections-silver-plans {
     background-color: var(--branco_paim);
@@ -374,13 +386,13 @@ nav {
 .sections-silver-plans ul p {
     padding-bottom: 2%;
 }
-.plan-1_silver p:nth-child(1) {
+.silver-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--silver_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_silver p:nth-child(2) {
+.silver-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -389,7 +401,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_silver p:nth-child(3) {
+.silver-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -398,7 +410,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(1) {
+.silver-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -407,7 +419,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_silver p:nth-child(3) {
+.silver-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -416,7 +428,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(4) {
+.silver-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -425,7 +437,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(5) {
+.silver-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -434,7 +446,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(6) {
+.silver-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -443,7 +455,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(7) {
+.silver-plan-column-1 p:nth-child(7) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -452,7 +464,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-3_silver p:nth-child(1) {
+.silver-plan-column-1 p:nth-child(9) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -460,6 +472,15 @@ nav {
     color: var(--preto_paim);
     line-height: 2rem;
     font-weight: 700;
+}
+.silver-plan-column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.silver-plan-image {
+    height: 70%;
+    width: 70%;
 }
 .sections-gold-plans {
     background-color: var(--preto_paim);
@@ -478,13 +499,13 @@ nav {
 .sections-gold-plans ul p {
     padding-bottom: 2%;
 }
-.plan-1_gold p:nth-child(1) {
+.gold-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--gold_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_gold p:nth-child(2) {
+.gold-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -493,7 +514,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_gold p:nth-child(3) {
+.gold-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -502,7 +523,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(1) {
+.gold-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -511,7 +532,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_gold p:nth-child(3) {
+.gold-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -520,7 +541,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(4) {
+.gold-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -529,7 +550,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(5) {
+.gold-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -538,7 +559,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(6) {
+.gold-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -547,7 +568,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(7) {
+.gold-plan-column-1 p:nth-child(7) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -556,7 +577,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(8) {
+.gold-plan-column-1 p:nth-child(8) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -565,7 +586,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(9) {
+.gold-plan-column-1 p:nth-child(9) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -574,7 +595,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(10) {
+.gold-plan-column-1 p:nth-child(10) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -583,7 +604,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-3_gold p:nth-child(1) {
+.gold-plan-column-1 p:nth-child(12) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -591,6 +612,15 @@ nav {
     color: var(--branco_paim);
     line-height: 2rem;
     font-weight: 700;
+}
+.gold-plan-column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gold-plan-image {
+    height: 70%;
+    width: 70%;
 }
 .sub-button-div {
     display: flex;
@@ -616,33 +646,6 @@ nav {
 .sub-button:active {
 	position:relative;
 	top:1px;
-}
-.bronze-plan-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bronze-plan {
-    height: 70%;
-    width: 70%;
-}
-.silver-plan-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.silver-plan {
-    height: 70%;
-    width: 70%;
-}
-.gold-plan-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.gold-plan {
-    height: 70%;
-    width: 70%;
 }
 
 /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */ 
@@ -681,13 +684,13 @@ nav {
 .sections-black-premium ul p {
     padding-bottom: 2%;
 }
-.plan-1_premium p:nth-child(1) {
+.premium-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--verde_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_premium p:nth-child(2) {
+.premium-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -696,7 +699,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_premium p:nth-child(3) {
+.premium-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -705,7 +708,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(1) {
+.premium-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.5rem;
     font-style: normal;
@@ -714,7 +717,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_premium p:nth-child(3) {
+.premium-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -723,7 +726,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(4) {
+.premium-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -732,7 +735,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(5) {
+.premium-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -741,7 +744,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(6) {
+.premium-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -750,12 +753,21 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.tec-premium-div {
+.premium-plan-column-1 p:nth-child(8) {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: var(--fonte_paim);
+    color: var(--branco_paim);
+    line-height: 2rem;
+    font-weight: 700;
+}
+.premium-plan-column-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.tec-premium {
+.premium-plan-image {
     height: 70%;
     width: 70%;
 }
@@ -788,244 +800,323 @@ nav {
 
 @media (max-width: 2200px) {
 
-nav {
-    justify-content: space-around;
-    width: 100%;
-    padding: 0% 0% 0% 0%;
-}
-.nav-list {
-    padding: 1% 0% 0% 0%;
-}
-.logo_imagem {
-    max-width: 100%;
-}
-.nav-list li a {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-decoration: none;
-}
-.redes-sociais {
-    font-size: 150%;
-}
-.redes-sociais a {
-    padding: 1.5rem;
-}
-.copyright-preto {
-    padding-bottom: 1%;
-}
-.copyright-preto_initial {
-    padding-bottom: 1%;
-}
-.copyright-branco {
-    padding-bottom: 1%;
-}
+    nav {
+        justify-content: space-around;
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+    .nav-list {
+        padding: 1% 0% 0% 0%;
+    }
+    .logo_imagem {
+        max-width: 100%;
+    }
+    .nav-list li a {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-decoration: none;
+    }
+    .redes-sociais {
+        font-size: 150%;
+    }
+    .redes-sociais a {
+        padding: 1.5rem;
+    }
+    .copyright-preto {
+        padding-bottom: 1%;
+    }
+    .copyright-preto_initial {
+        padding-bottom: 1%;
+    }
+    .copyright-branco {
+        padding-bottom: 1%;
+    }
 
-/* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
-/* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
+    /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
+    /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
 
-.introduction p:nth-child(1) {
-    font-size: 2rem;
-}
-.introduction p:nth-child(2) {
-    font-size: 4rem;
-}
-.sections-black p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-black p:nth-child(2) {
-    font-size: 2rem;
-}
-.sections-black p:nth-child(3) {
-    font-size: 2rem;
-}
-.sections-white p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-white p:nth-child(2) {
-    font-size: 2rem;
-}
+    .introduction p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .introduction p:nth-child(2) {
+        font-size: 4rem;
+    }
+    .sections-black p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-black p:nth-child(2) {
+        font-size: 2rem;
+    }
+    .sections-black p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .sections-white p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-white p:nth-child(2) {
+        font-size: 2rem;
+    }
 
-/* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
-/* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
+    /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
+    /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 
-.introduction-plans p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-bronze-plans {
-    min-height: 20vw;
-}
-.plan-1_bronze p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_bronze p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_bronze p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-3_bronze p:nth-child(1) {
-    font-size: 2rem;
-}
-.sections-silver-plans {
-    min-height: 20vw;
-}
-.sections-silver-plans ul p {
-    padding-bottom: 2%;
-}
-.plan-1_silver p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_silver p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_silver p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(7) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(8) {
-    font-size: 2rem;
-}
-.plan-3_silver p:nth-child(1) {
-    font-size: 2rem;
-}
-.sections-gold-plans {
-    min-height: 20vw;
-}
-.plan-1_gold p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_gold p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_gold p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(7) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(8) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(9) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(10) {
-    font-size: 2rem;
-}
-.plan-3_gold p:nth-child(1) {
-    font-size: 2rem;
-}
-.sub-button-div {
-    justify-content: left;
-    padding-left: 5%;
-}
-.sub-button {
-    font-size: 1.5rem;
-}
-.bronze-plan {
-    height: 30%;
-    width: 30%;
-}
-.silver-plan {
-    height: 30%;
-    width: 30%;
-}
-.gold-plan {
-    height: 30%;
-    width: 30%;
-}
+    .introduction-plans p:nth-child(1) {
+        font-size: 3rem;
+    }
 
-/* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
-/* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+    .sections-bronze-plans {
+        min-height: 20vw;
+    }
+    .bronze-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .bronze-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .bronze-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .bronze-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .bronze-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .bronze-plan-image {
+        height: 80%;
+        width: 80%;
+        margin: -20% 0% 0% 0%;
+    }
 
-.introduction-premium p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-black-premium {
-    min-height: 20vw;
-}
-.plan-1_premium p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_premium p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_premium p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(6) {
-    font-size: 2rem;
-}
-.tec-premium {
-    height: 30%;
-    width: 30%;
-}
+    .sections-silver-plans {
+        min-height: 20vw;
+    }
+    .silver-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .silver-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .silver-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(7) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(9) {
+        font-size: 2rem;
+    }
+    .silver-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .silver-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .silver-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .silver-plan-image {
+        height: 80%;
+        width: 80%;
+        margin: -15% 0% 0% 0%;
+    }
 
-/* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
-/* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
 
-.introduction-curse p:nth-child(1) {
-    font-size: 3rem;
-}
+    .sections-gold-plans {
+        min-height: 20vw;
+    }
+    .gold-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .gold-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .gold-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(7) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(9) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(10) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(12) {
+        font-size: 2rem;
+    }
+    .gold-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .gold-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .gold-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .gold-plan-image {
+        height: 80%;
+        width: 80%;
+    }
+
+    .sub-button-div {
+        justify-content: left;
+        padding-left: 5%;
+    }
+    .sub-button {
+        font-size: 1.5rem;
+    }
+
+    /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+    /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+
+    .introduction-premium p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-black-premium {
+        min-height: 20vw;
+    }
+    .premium-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .premium-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .premium-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .premium-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .premium-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .premium-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .premium-plan-image {
+        height: 70%;
+        width: 70%;
+    }
+
+    /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+    /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+
+    .introduction-curse p:nth-child(1) {
+        font-size: 3rem;
+    }
 
 }
 
@@ -1037,243 +1128,321 @@ nav {
 
 @media (max-width: 1680px) {
 
-nav {
-    justify-content: space-around;
-    width: 100%;
-    padding: 0% 0% 0% 0%;
-}
-.logo_imagem {
-    max-width: 100%;
-}
-.nav-list li {
-    text-decoration: none;
-}
-.nav-list li a {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.redes-sociais {
-    font-size: 150%;
-}
-.redes-sociais a {
-    padding: 1.5rem;
-}
-.copyright-preto {
-    padding-bottom: 1%;
-}
-.copyright-preto_initial {
-    padding-bottom: 1%;
-}
-.copyright-branco {
-    padding-bottom: 1%;
-}
+    nav {
+        justify-content: space-around;
+        width: 100%;
+        padding: 0% 0% 0% 0%;
+    }
+    .logo_imagem {
+        max-width: 100%;
+    }
+    .nav-list li {
+        text-decoration: none;
+    }
+    .nav-list li a {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .redes-sociais {
+        font-size: 150%;
+    }
+    .redes-sociais a {
+        padding: 1.5rem;
+    }
+    .copyright-preto {
+        padding-bottom: 1%;
+    }
+    .copyright-preto_initial {
+        padding-bottom: 1%;
+    }
+    .copyright-branco {
+        padding-bottom: 1%;
+    }
 
-/* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
-/* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
+    /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
+    /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
 
-.introduction p:nth-child(1) {
-    font-size: 2rem;
-}
-.introduction p:nth-child(2) {
-    font-size: 4rem;
-}
-.sections-black p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-black p:nth-child(2) {
-    font-size: 2rem;
-}
-.sections-black p:nth-child(3) {
-    font-size: 2rem;
-}
-.sections-white p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-white p:nth-child(2) {
-    font-size: 2rem;
-}
+    .introduction p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .introduction p:nth-child(2) {
+        font-size: 4rem;
+    }
+    .sections-black p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-black p:nth-child(2) {
+        font-size: 2rem;
+    }
+    .sections-black p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .sections-white p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-white p:nth-child(2) {
+        font-size: 2rem;
+    }
 
-/* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
-/* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
+    /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
+    /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 
-.introduction-plans p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-bronze-plans {
-    min-height: 20vw;
-}
-.plan-1_bronze p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_bronze p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_bronze p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-3_bronze p:nth-child(1) {
-    font-size: 2rem;
-}
-.sections-silver-plans {
-    min-height: 20vw;
-}
-.sections-silver-plans ul p {
-    padding-bottom: 2%;
-}
-.plan-1_silver p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_silver p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_silver p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(7) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(8) {
-    font-size: 2rem;
-}
-.plan-3_silver p:nth-child(1) {
-    font-size: 2rem;
-}
-.sections-gold-plans {
-    min-height: 20vw;
-}
-.plan-1_gold p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_gold p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_gold p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(7) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(8) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(9) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(10) {
-    font-size: 2rem;
-}
-.plan-3_gold p:nth-child(1) {
-    font-size: 2rem;
-}
-.sub-button-div {
-    justify-content: left;
-    padding-left: 5%;
-}
-.sub-button {
-    font-size: 1.5rem;
-}
-.bronze-plan {
-    height: 30%;
-    width: 30%;
-}
-.silver-plan {
-    height: 30%;
-    width: 30%;
-}
-.gold-plan {
-    height: 30%;
-    width: 30%;
-}
+    .introduction-plans p:nth-child(1) {
+        font-size: 3rem;
+    }
 
-/* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
-/* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+    .sections-bronze-plans {
+        min-height: 20vw;
+    }
+    .bronze-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .bronze-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .bronze-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .bronze-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .bronze-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .bronze-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .bronze-plan-image {
+        height: 80%;
+        width: 80%;
+        margin: -15% 10% 10% 10%;
+    }
 
-.introduction-premium p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-black-premium {
-    min-height: 20vw;
-}
-.plan-1_premium p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_premium p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_premium p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(6) {
-    font-size: 2rem;
-}
-.tec-premium {
-    height: 30%;
-    width: 30%;
-}
+    .sections-silver-plans {
+        min-height: 20vw;
+    }
+    .silver-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .silver-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .silver-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(7) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .silver-plan-column-1 p:nth-child(9) {
+        font-size: 2rem;
+    }
+    .silver-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .silver-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .silver-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .silver-plan-image {
+        height: 80%;
+        width: 80%;
+    }
 
-/* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
-/* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+    .sections-gold-plans {
+        min-height: 20vw;
+    }
+    .gold-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .gold-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .gold-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(7) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(9) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(10) {
+        font-size: 2rem;
+    }
+    .gold-plan-column-1 p:nth-child(12) {
+        font-size: 2rem;
+    }
+    .gold-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .gold-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .gold-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .gold-plan-image {
+        height: 80%;
+        width: 80%;
+    }
 
-.introduction-curse p:nth-child(1) {
-    font-size: 3rem;
-}
+    .sub-button-div {
+        justify-content: left;
+        padding-left: 5%;
+    }
+    .sub-button {
+        font-size: 1.5rem;
+    }
+
+    /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+    /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+
+    .introduction-premium p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-black-premium {
+        min-height: 20vw;
+    }
+
+    .premium-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .premium-plan-solo p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+    .premium-plan-solo p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(4) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(5) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(6) {
+        font-size: 2rem;
+    }
+    .premium-plan-column-1 p:nth-child(8) {
+        font-size: 2rem;
+    }
+    .premium-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .premium-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .premium-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .premium-plan-image {
+        height: 80%;
+        width: 80%;
+    }
+
+    /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+    /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+
+    .introduction-curse p:nth-child(1) {
+        font-size: 3rem;
+    }
 
 }
 
@@ -1285,239 +1454,321 @@ nav {
 
 @media (max-width: 1440px) {
     
-nav {
-    justify-content: space-around;
-    width: 100%;
-    height: 6%;
-    padding: 0% 0% 0% 0%;
-}
-.logo_imagem {
-    width: 10%;
-}
-.nav-list li a {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.redes-sociais {
-    font-size: 120%;
-}
-.redes-sociais a {
-    padding: 1rem;
-}
-.copyright-preto {
-    padding-bottom: 1%;
-}
-.copyright-preto_initial {
-    padding-bottom: 1%;
-}
-.copyright-branco {
-    padding-bottom: 1%;
-}
-    
-/* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
-/* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
-    
-.introduction p:nth-child(1) {
-    font-size: 2rem;
-}
-.introduction p:nth-child(2) {
-    font-size: 4rem;
-}
-.sections-black p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-black p:nth-child(2) {
-    font-size: 2rem;
-}
-.sections-black p:nth-child(3) {
-    font-size: 2rem;
-}
-.sections-white p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-white p:nth-child(2) {
-    font-size: 2rem;
-}
+    nav {
+        justify-content: space-around;
+        width: 100%;
+        height: 10%;
+        padding: 0% 0% 0% 0%;
+    }
+    .logo_imagem {
+        width: 10%;
+    }
+    .nav-list li a {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .redes-sociais {
+        font-size: 120%;
+    }
+    .redes-sociais a {
+        padding: 1rem;
+    }
+    .copyright-preto {
+        padding-bottom: 1%;
+    }
+    .copyright-preto_initial {
+        padding-bottom: 1%;
+    }
+    .copyright-branco {
+        padding-bottom: 1%;
+    }
+        
+    /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
+    /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */  /* INICIAL -- INICIAL */
+        
+    .introduction p:nth-child(1) {
+        font-size: 2rem;
+    }
+    .introduction p:nth-child(2) {
+        font-size: 4rem;
+    }
+    .sections-black p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-black p:nth-child(2) {
+        font-size: 2rem;
+    }
+    .sections-black p:nth-child(3) {
+        font-size: 2rem;
+    }
+    .sections-white p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-white p:nth-child(2) {
+        font-size: 2rem;
+    }
 
-/* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
-/* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
+    /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
+    /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 
-.introduction-plans p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-bronze-plans {
-    min-height: 20vw;
-}
-.plan-1_bronze p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_bronze p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_bronze p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_bronze p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-3_bronze p:nth-child(1) {
-    font-size: 2rem;
-}
-.sections-silver-plans {
-    min-height: 20vw;
-}
-.sections-silver-plans ul p {
-    padding-bottom: 2%;
-}
-.plan-1_silver p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_silver p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_silver p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(7) {
-    font-size: 2rem;
-}
-.plan-2_silver p:nth-child(8) {
-    font-size: 2rem;
-}
-.plan-3_silver p:nth-child(1) {
-    font-size: 2rem;
-}
+    .introduction-plans p:nth-child(1) {
+        font-size: 3rem;
+    }
 
-.sections-gold-plans {
-    min-height: 20vw;
-}
-.plan-1_gold p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_gold p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_gold p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(6) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(7) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(8) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(9) {
-    font-size: 2rem;
-}
-.plan-2_gold p:nth-child(10) {
-    font-size: 2rem;
-}
-.sub-button-div {
-    justify-content: left;
-    padding-left: 5%;
-}
-.sub-button {
-    font-size: 1.5rem;
-}
-.bronze-plan {
-    height: 30%;
-    width: 30%;
-}
-.silver-plan {
-    height: 30%;
-    width: 30%;
-}
-.gold-plan {
-    height: 30%;
-    width: 30%;
-}
+    .sections-bronze-plans {
+        min-height: 20vw;
+    }
+    .bronze-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .bronze-plan-solo p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+    .bronze-plan-solo p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column-1 p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column-1 p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column-1 p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column-1 p:nth-child(5) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column-1 p:nth-child(6) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column-1 p:nth-child(8) {
+        font-size: 1.6rem;
+    }
+    .bronze-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .bronze-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .bronze-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .bronze-plan-image {
+        height: 80%;
+        width: 80%;
+        margin: -15% 10% 10% 10%;
+    }
 
-/* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
-/* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+    .sections-silver-plans {
+        min-height: 20vw;
+    }
+    .silver-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .silver-plan-solo p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+    .silver-plan-solo p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(5) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(6) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(7) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(8) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column-1 p:nth-child(9) {
+        font-size: 1.6rem;
+    }
+    .silver-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .silver-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .silver-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .silver-plan-image {
+        height: 80%;
+        width: 80%;
+    }
 
-.introduction-premium p:nth-child(1) {
-    font-size: 3rem;
-}
-.sections-black-premium {
-    min-height: 20vw;
-}
-.plan-1_premium p:nth-child(1) {
-    font-size: 3rem;
-}
-.plan-1_premium p:nth-child(2) {
-    font-size: 1.5rem;
-}
-.plan-1_premium p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(1) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(3) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(4) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(5) {
-    font-size: 2rem;
-}
-.plan-2_premium p:nth-child(6) {
-    font-size: 2rem;
-}
-.tec-premium {
-    height: 30%;
-    width: 30%;
-}
+    .sections-gold-plans {
+        min-height: 20vw;
+    }
+    .gold-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .gold-plan-solo p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+    .gold-plan-solo p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(5) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(6) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(7) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(8) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(9) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(10) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column-1 p:nth-child(12) {
+        font-size: 1.6rem;
+    }
+    .gold-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .gold-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .gold-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .gold-plan-image {
+        height: 80%;
+        width: 80%;
+    }
 
-/* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
-/* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+    .sub-button-div {
+        justify-content: left;
+        padding-left: 5%;
+    }
+    .sub-button {
+        font-size: 1.5rem;
+    }
 
-.introduction-curse p:nth-child(1) {
-    font-size: 3rem;
-}
+
+    /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+    /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */
+
+    .introduction-premium p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .sections-black-premium {
+        min-height: 20vw;
+    }
+
+    .premium-plan-solo p:nth-child(1) {
+        font-size: 3rem;
+    }
+    .premium-plan-solo p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+    .premium-plan-solo p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column-1 p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column-1 p:nth-child(3) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column-1 p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column-1 p:nth-child(5) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column-1 p:nth-child(6) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column-1 p:nth-child(8) {
+        font-size: 1.6rem;
+    }
+    .premium-plan-column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2.5%;
+    }
+    .premium-plan-column-1 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .premium-plan-column-2 {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+    .premium-plan-image {
+        height: 80%;
+        width: 80%;
+        margin: 0;
+    }
+
+    /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+    /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
+
+    .introduction-curse p:nth-child(1) {
+        font-size: 3rem;
+    }
 
 }
 
@@ -1527,7 +1778,7 @@ nav {
 /* 1024px -- 1024px */  /* 1024px -- 1024px */  /* 1024px -- 1024px */
 /* 1024px -- 1024px */  /* 1024px -- 1024px */  /* 1024px -- 1024px */
 
-@media (max-width: 1024px) {
+@media (max-width: 1120px) {
 
 nav {
     height: 10%;
@@ -1580,7 +1831,7 @@ nav {
 }
 .nav-list.active {
     transform: translateX(0);
-    z-index: 1;
+    z-index: 2;
 }
 .redes-sociais a {
     padding: 1rem;
@@ -1623,102 +1874,188 @@ nav {
 /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 
-.plan-1_bronze p:nth-child(1) {
+.introduction-plans p:nth-child(1) {
     font-size: 3rem;
 }
-.plan-1_bronze p:nth-child(2) {
-    font-size: 1rem;
+
+.sections-bronze-plans {
+    min-height: 20vw;
 }
-.plan-1_bronze p:nth-child(3) {
-    font-size: 1.5rem;
-}
-.plan-2_bronze p:nth-child(1) {
-    font-size: 1.5rem;
-}
-.plan-2_bronze p:nth-child(3) {
-    font-size: 1.5rem;
-}
-.plan-2_bronze p:nth-child(4) {
-    font-size: 1.5rem;
-}
-.plan-2_bronze p:nth-child(5) {
-    font-size: 1.5rem;
-}
-.plan-2_bronze p:nth-child(6) {
-    font-size: 1.5rem;
-}
-.plan-3_bronze p:nth-child(1) {
-    font-size: 1.5rem;
-}
-.plan-1_silver p:nth-child(1) {
+.bronze-plan-solo p:nth-child(1) {
     font-size: 3rem;
 }
-.plan-1_silver p:nth-child(2) {
-    font-size: 1rem;
+.bronze-plan-solo p:nth-child(2) {
+    font-size: 1.3rem;
 }
-.plan-1_silver p:nth-child(3) {
-    font-size: 1.5rem;
+.bronze-plan-solo p:nth-child(3) {
+    font-size: 1.6rem;
 }
-.plan-2_silver p:nth-child(1) {
-    font-size: 1.5rem;
+.bronze-plan-column-1 p:nth-child(1) {
+    font-size: 1.6rem;
 }
-.plan-2_silver p:nth-child(3) {
-    font-size: 1.5rem;
+.bronze-plan-column-1 p:nth-child(3) {
+    font-size: 1.6rem;
 }
-.plan-2_silver p:nth-child(4) {
-    font-size: 1.5rem;
+.bronze-plan-column-1 p:nth-child(4) {
+    font-size: 1.6rem;
 }
-.plan-2_silver p:nth-child(5) {
-    font-size: 1.5rem;
+.bronze-plan-column-1 p:nth-child(5) {
+    font-size: 1.6rem;
 }
-.plan-2_silver p:nth-child(6) {
-    font-size: 1.5rem;
+.bronze-plan-column-1 p:nth-child(6) {
+    font-size: 1.6rem;
 }
-.plan-2_silver p:nth-child(7) {
-    font-size: 1.5rem;
+.bronze-plan-column-1 p:nth-child(8) {
+    font-size: 1.6rem;
 }
-.plan-3_silver p:nth-child(1) {
-    font-size: 1.5rem;
+.bronze-plan-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
 }
-.plan-1_gold p:nth-child(1) {
+.bronze-plan-column-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.bronze-plan-column-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.bronze-plan-image {
+    height: 80%;
+    width: 80%;
+    margin: -15% 10% 10% 10%;
+}
+
+.sections-silver-plans {
+    min-height: 20vw;
+}
+.silver-plan-solo p:nth-child(1) {
     font-size: 3rem;
 }
-.plan-1_gold p:nth-child(2) {
-    font-size: 1rem;
+.silver-plan-solo p:nth-child(2) {
+    font-size: 1.3rem;
 }
-.plan-1_gold p:nth-child(3) {
-    font-size: 1.5rem;
+.silver-plan-solo p:nth-child(3) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(1) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(1) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(3) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(3) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(4) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(4) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(5) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(5) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(6) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(6) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(7) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(7) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(8) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(8) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(9) {
-    font-size: 1.5rem;
+.silver-plan-column-1 p:nth-child(9) {
+    font-size: 1.6rem;
 }
-.plan-2_gold p:nth-child(10) {
-    font-size: 1.5rem;
+.silver-plan-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
 }
-.plan-3_gold p:nth-child(1) {
-    font-size: 1.5rem;
+.silver-plan-column-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
+.silver-plan-column-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.silver-plan-image {
+    height: 80%;
+    width: 80%;
+}
+
+.sections-gold-plans {
+    min-height: 20vw;
+}
+.gold-plan-solo p:nth-child(1) {
+    font-size: 3rem;
+}
+.gold-plan-solo p:nth-child(2) {
+    font-size: 1.3rem;
+}
+.gold-plan-solo p:nth-child(3) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(1) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(3) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(4) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(5) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(6) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(7) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(8) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(9) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(10) {
+    font-size: 1.6rem;
+}
+.gold-plan-column-1 p:nth-child(12) {
+    font-size: 1.6rem;
+}
+.gold-plan-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+}
+.gold-plan-column-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.gold-plan-column-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.gold-plan-image {
+    height: 80%;
+    width: 80%;
+}
+
 .sub-button-div {
     justify-content: left;
     padding-left: 5%;
@@ -1726,50 +2063,58 @@ nav {
 .sub-button {
     font-size: 1.5rem;
 }
-.bronze-plan {
-    height: 40%;
-    width: 40%;
-}
-.silver-plan {
-    height: 40%;
-    width: 40%;
-}
-.gold-plan {
-    height: 40%;
-    width: 40%;
-}
 
 /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */ 
 /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */ 
 
-.plan-1_premium p:nth-child(1) {
+.premium-plan-solo p:nth-child(1) {
     font-size: 3rem;
 }
-.plan-1_premium p:nth-child(2) {
-    font-size: 1rem;
+.premium-plan-solo p:nth-child(2) {
+    font-size: 1.3rem;
 }
-.plan-1_premium p:nth-child(3) {
-    font-size: 1.5rem;
+.premium-plan-solo p:nth-child(3) {
+    font-size: 1.6rem;
 }
-
-.plan-2_premium p:nth-child(1) {
-    font-size: 1.5rem;
+.premium-plan-column-1 p:nth-child(1) {
+    font-size: 1.6rem;
 }
-.plan-2_premium p:nth-child(3) {
-    font-size: 1.5rem;
+.premium-plan-column-1 p:nth-child(3) {
+    font-size: 1.6rem;
 }
-.plan-2_premium p:nth-child(4) {
-    font-size: 1.5rem;
+.premium-plan-column-1 p:nth-child(4) {
+    font-size: 1.6rem;
 }
-.plan-2_premium p:nth-child(5) {
-    font-size: 1.5rem;
+.premium-plan-column-1 p:nth-child(5) {
+    font-size: 1.6rem;
 }
-.plan-2_premium p:nth-child(6) {
-    font-size: 1.5rem;
+.premium-plan-column-1 p:nth-child(6) {
+    font-size: 1.6rem;
 }
-.tec-premium {
-    height: 40%;
-    width: 40%;
+.premium-plan-column-1 p:nth-child(8) {
+    font-size: 1.6rem;
+}
+.premium-plan-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+}
+.premium-plan-column-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.premium-plan-column-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.premium-plan-image {
+    height: 90%;
+    width: 90%;
 }
 
 /* CURSO -- CURSO */  /* CURSO -- CURSO */  /* CURSO -- CURSO */
@@ -1799,7 +2144,7 @@ nav {
     opacity: 0;
 }
 .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-4px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
 }
 
 }
@@ -1904,8 +2249,8 @@ nav {
     font-family: var(--fonte_paim);
     font-style: normal;
     padding: 0% 5% 0% 5%;
-    font-size: 1.4rem;
-    line-height: 4rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 .introduction p:nth-child(2) {
     font-family: var(--fonte_paim);
@@ -1913,7 +2258,7 @@ nav {
     font-weight: 800;
     font-style: normal;
     font-size: 2rem;
-    line-height: 6rem;
+    line-height: 5rem;
     padding: 0% 5% 0% 5%;
 }
 .sections-black {
@@ -1988,6 +2333,9 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
+.imagem_caixa-vantagem {
+    width: 70%;
+}
 
 /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
 /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */  /* PLANOS -- PLANOS */
@@ -2025,13 +2373,13 @@ nav {
 .sections-bronze-plans ul p {
     padding-bottom: 2%;
 }
-.plan-1_bronze p:nth-child(1) {
+.bronze-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--bronze_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_bronze p:nth-child(2) {
+.bronze-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -2040,7 +2388,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_bronze p:nth-child(3) {
+.bronze-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2049,7 +2397,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(1) {
+.bronze-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2058,7 +2406,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_bronze p:nth-child(3) {
+.bronze-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2067,7 +2415,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(4) {
+.bronze-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2076,7 +2424,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(5) {
+.bronze-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2085,7 +2433,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_bronze p:nth-child(6) {
+.bronze-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2094,7 +2442,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-3_bronze p:nth-child(1) {
+.bronze-plan-column-1 p:nth-child(8) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2102,6 +2450,22 @@ nav {
     color: var(--branco_paim);
     line-height: 2rem;
     font-weight: 700;
+}
+.bronze-plan-column {
+    display: table;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+}
+.bronze-plan-column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bronze-plan-image {
+    height: 70%;
+    width: 70%;
+    margin: 0;
 }
 .sections-silver-plans {
     background-color: var(--branco_paim);
@@ -2120,13 +2484,13 @@ nav {
 .sections-silver-plans ul p {
     padding-bottom: 2%;
 }
-.plan-1_silver p:nth-child(1) {
+.silver-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--silver_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_silver p:nth-child(2) {
+.silver-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -2135,7 +2499,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_silver p:nth-child(3) {
+.silver-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2144,7 +2508,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(1) {
+.silver-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2153,7 +2517,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_silver p:nth-child(3) {
+.silver-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2162,7 +2526,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(4) {
+.silver-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2171,7 +2535,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(5) {
+.silver-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2180,7 +2544,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(6) {
+.silver-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2189,7 +2553,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_silver p:nth-child(7) {
+.silver-plan-column-1 p:nth-child(7) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2198,7 +2562,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-3_silver p:nth-child(1) {
+.silver-plan-column-1 p:nth-child(9) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2206,6 +2570,22 @@ nav {
     color: var(--preto_paim);
     line-height: 2rem;
     font-weight: 700;
+}
+.silver-plan-column {
+    display: table;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+}
+.silver-plan-column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.silver-plan-image {
+    height: 70%;
+    width: 70%;
+    margin: 0;
 }
 .sections-gold-plans {
     background-color: var(--preto_paim);
@@ -2224,13 +2604,13 @@ nav {
 .sections-gold-plans ul p {
     padding-bottom: 2%;
 }
-.plan-1_gold p:nth-child(1) {
+.gold-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--gold_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_gold p:nth-child(2) {
+.gold-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -2239,7 +2619,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_gold p:nth-child(3) {
+.gold-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2248,7 +2628,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(1) {
+.gold-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2257,7 +2637,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_gold p:nth-child(3) {
+.gold-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2266,7 +2646,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(4) {
+.gold-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2275,7 +2655,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(5) {
+.gold-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2284,7 +2664,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(6) {
+.gold-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2293,7 +2673,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(7) {
+.gold-plan-column-1 p:nth-child(7) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2302,7 +2682,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(8) {
+.gold-plan-column-1 p:nth-child(8) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2311,7 +2691,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(9) {
+.gold-plan-column-1 p:nth-child(9) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2320,7 +2700,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_gold p:nth-child(10) {
+.gold-plan-column-1 p:nth-child(10) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2329,7 +2709,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-3_gold p:nth-child(1) {
+.gold-plan-column-1 p:nth-child(12) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2337,40 +2717,46 @@ nav {
     color: var(--branco_paim);
     line-height: 2rem;
     font-weight: 700;
+}
+.gold-plan-column {
+    display: table;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+}
+.gold-plan-column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gold-plan-image {
+    height: 70%;
+    width: 70%;
 }
 .sub-button-div {
+    display: flex;
     justify-content: center;
-    padding-left: 0%;
+    align-items: center;
 }
 .sub-button {
-    font-size: 1rem;
+	background-color: var(--preto_paim);
+	border-radius:10px;
+	border:3px solid var(--verde_paim);
+	display:inline-block;
+	cursor:pointer;
+	color: var(--verde_paim);
+	font-family: var(--fonte_paim);
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem;
+	text-decoration: none;
 }
-.bronze-plan-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sub-button:hover {
+	background-color:#191c1f;
 }
-.bronze-plan {
-    height: 70%;
-    width: 70%;
-}
-.silver-plan-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.silver-plan {
-    height: 70%;
-    width: 70%;
-}
-.gold-plan-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.gold-plan {
-    height: 70%;
-    width: 70%;
+.sub-button:active {
+	position:relative;
+	top:1px;
 }
 
 /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */  /* PREMIUM -- PREMIUM */ 
@@ -2409,13 +2795,13 @@ nav {
 .sections-black-premium ul p {
     padding-bottom: 2%;
 }
-.plan-1_premium p:nth-child(1) {
+.premium-plan-solo p:nth-child(1) {
     font-family: var(--fonte_paim);
     color: var(--verde_paim);
     font-size: 2rem;
     font-weight: 700;
 }
-.plan-1_premium p:nth-child(2) {
+.premium-plan-solo p:nth-child(2) {
     text-align: justify;
     font-size: 1rem;
     font-style: normal;
@@ -2424,7 +2810,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-1_premium p:nth-child(3) {
+.premium-plan-solo p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2433,10 +2819,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium ul {
-    list-style-type: circle;
-}
-.plan-2_premium p:nth-child(1) {
+.premium-plan-column-1 p:nth-child(1) {
     text-align: justify;
     font-size: 1.5rem;
     font-style: normal;
@@ -2445,7 +2828,7 @@ nav {
     line-height: 2rem;
     font-weight: 700;
 }
-.plan-2_premium p:nth-child(3) {
+.premium-plan-column-1 p:nth-child(3) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2454,7 +2837,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(4) {
+.premium-plan-column-1 p:nth-child(4) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2463,7 +2846,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(5) {
+.premium-plan-column-1 p:nth-child(5) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2472,7 +2855,7 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.plan-2_premium p:nth-child(6) {
+.premium-plan-column-1 p:nth-child(6) {
     text-align: justify;
     font-size: 1.2rem;
     font-style: normal;
@@ -2481,12 +2864,27 @@ nav {
     line-height: 2rem;
     font-weight: 500;
 }
-.tec-premium-div {
+.premium-plan-column-1 p:nth-child(8) {
+    text-align: justify;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: var(--fonte_paim);
+    color: var(--branco_paim);
+    line-height: 2rem;
+    font-weight: 700;
+}
+.premium-plan-column {
+    display: table;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+}
+.premium-plan-column-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.tec-premium {
+.premium-plan-image {
     height: 70%;
     width: 70%;
 }
