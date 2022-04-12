@@ -140,14 +140,13 @@ nav {
     font-size: 1.4rem;
     line-height: 4rem;
 }
-.introduction p:nth-child(2) {
+.fifa_ut {
     font-family: var(--fonte_paim);
     color: var(--preto_paim);
     font-weight: 800;
     font-style: normal;
     font-size: 2rem;
     line-height: 6rem;
-    padding: 0% 5% 0% 5%;
 }
 .sections-black {
     background-color: var(--preto_paim);
@@ -838,7 +837,7 @@ nav {
     .introduction p:nth-child(1) {
         font-size: 2rem;
     }
-    .introduction p:nth-child(2) {
+    .fifa_ut {
         font-size: 4rem;
     }
     .sections-black p:nth-child(1) {
@@ -1165,7 +1164,7 @@ nav {
     .introduction p:nth-child(1) {
         font-size: 2rem;
     }
-    .introduction p:nth-child(2) {
+    .fifa_ut {
         font-size: 4rem;
     }
     .sections-black p:nth-child(1) {
@@ -1489,7 +1488,7 @@ nav {
     .introduction p:nth-child(1) {
         font-size: 2rem;
     }
-    .introduction p:nth-child(2) {
+    .fifa_ut {
         font-size: 4rem;
     }
     .sections-black p:nth-child(1) {
@@ -1852,7 +1851,7 @@ nav {
 .introduction p:nth-child(1) {
     font-size: 2rem;
 }
-.introduction p:nth-child(2) {
+.fifa_ut {
     font-size: 3rem;
 }
 .sections-black p:nth-child(1) {
@@ -2243,23 +2242,24 @@ nav {
     position: relative;
     display: table;
     height: 90vh;
+    padding-right: 5%;
+    white-space: pre;
 }
 .introduction p:nth-child(1) {
     margin-top: 10vh;
     font-family: var(--fonte_paim);
     font-style: normal;
     padding: 0% 5% 0% 5%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
 }
-.introduction p:nth-child(2) {
+.fifa_ut {
     font-family: var(--fonte_paim);
     color: var(--preto_paim);
     font-weight: 800;
     font-style: normal;
     font-size: 2rem;
     line-height: 5rem;
-    padding: 0% 5% 0% 5%;
 }
 .sections-black {
     background-color: var(--preto_paim);
